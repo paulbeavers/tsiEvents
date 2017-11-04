@@ -80,6 +80,23 @@
                 });
             }
         }
+        else
+        {
+            dispatch_async(dispatch_get_main_queue(), ^{
+                UIAlertController *myAlertController = [UIAlertController alertControllerWithTitle:@"TrueSight"
+                                                                                           message: @"Event sent to TrueSight Intelligence" preferredStyle:UIAlertControllerStyleAlert];
+                UIAlertAction* ok = [UIAlertAction
+                                     actionWithTitle:@"OK"
+                                     style:UIAlertActionStyleDefault
+                                     handler:^(UIAlertAction * action)
+                                     {
+                                         [myAlertController dismissViewControllerAnimated:YES completion:nil];
+                                     }];
+                [myAlertController addAction: ok];
+                [parentViewController presentViewController:myAlertController animated:YES completion:nil];
+            });
+            
+        }
     }];
     
     [task resume];

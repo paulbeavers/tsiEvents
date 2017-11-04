@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+{
+    IBOutlet UITextView * eventText;
+}
+
+- (IBAction)sendEvent:(id)sender;
 
 @end
 

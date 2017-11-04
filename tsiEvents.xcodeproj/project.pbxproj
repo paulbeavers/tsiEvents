@@ -13,6 +13,7 @@
 		B2EDC2BE1FA9914100176B46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B2EDC2BD1FA9914100176B46 /* Assets.xcassets */; };
 		B2EDC2C11FA9914100176B46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2EDC2BF1FA9914100176B46 /* LaunchScreen.storyboard */; };
 		B2EDC2C41FA9914100176B46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EDC2C31FA9914100176B46 /* main.m */; };
+		B2EDC2CC1FA9919A00176B46 /* tsiObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B2EDC2CA1FA9919A00176B46 /* tsiObject.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B2EDC2C01FA9914100176B46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B2EDC2C21FA9914100176B46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2EDC2C31FA9914100176B46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2EDC2CA1FA9919A00176B46 /* tsiObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tsiObject.m; sourceTree = "<group>"; };
+		B2EDC2CB1FA9919A00176B46 /* tsiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tsiObject.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		B2EDC2B31FA9914100176B46 /* tsiEvents */ = {
 			isa = PBXGroup;
 			children = (
+				B2EDC2CB1FA9919A00176B46 /* tsiObject.h */,
+				B2EDC2CA1FA9919A00176B46 /* tsiObject.m */,
 				B2EDC2B41FA9914100176B46 /* AppDelegate.h */,
 				B2EDC2B51FA9914100176B46 /* AppDelegate.m */,
 				B2EDC2B71FA9914100176B46 /* ViewController.h */,
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2EDC2B91FA9914100176B46 /* ViewController.m in Sources */,
+				B2EDC2CC1FA9919A00176B46 /* tsiObject.m in Sources */,
 				B2EDC2C41FA9914100176B46 /* main.m in Sources */,
 				B2EDC2B61FA9914100176B46 /* AppDelegate.m in Sources */,
 			);
